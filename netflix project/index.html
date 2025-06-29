@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfilx Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="homePage">
+        <div class="navBar">
+            <div class="logoBox">
+                <img src="netflixLogo.png" alt="">
+            </div>
+            <div class="buttonBox">
+                <button class="signInButton">Sign In</button>
+            </div>
+        </div>
+
+        <div class="introBox">
+            <h1 class="mainTextDesc">Unlimited movies, TV shows, and more</h1>
+            <h5 class="secTextDesc">Watch anywhere. Cancel anytime.</h5>
+
+            <div class="readyToWatch">
+                <h5 class="secTextDesc" style="font-size: 20px;">Ready to watch? Enter your email to create or restart
+                    your
+                    membership.
+                </h5>
+
+                <div class="membershipBox">
+                    <div class="emailBox">
+                        <input type="email" name="email" id="emailAddress" class="emailField"
+                            placeholder="Email Address">
+                    </div>
+
+                    <div class="getStartedBox">
+                        <button class="getStartedBtn">Get Started <code
+                                style="font-size: 30px; padding-left: 15px;">></code></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="descBox">
+        <div class="featuresDescBox">
+            <h3 class="features">Enjoy on your TV</h3>
+            <p class="featuresDesc">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and
+                more.</p>
+        </div>
+
+        <div class="graphicBox">
+            <video src="netflixVideo.m4v" autoplay loop muted></video>
+        </div>
+    </div>
+
+
+    <div class="descBox noBorderTop">
+        <div class="graphicBox2">
+            <div class="strangerThings">
+                <img src="strangerThings.png" alt="">
+                <div class="texts">
+                    <p style="font-family: Netflix Sans;">Stranger Things</p>
+                    <p style="color: #3535de; font-size: 17px;">Downloading...</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="featureDescBox2">
+            <h3 class="features">Download your shows to watch offline.</h3>
+            <p class="featuresDesc">Save your favourites easily and always have something to watch.</p>
+        </div>
+    </div>
+
+    <div class="descBox noBorderTop" style="height: 320px;">
+        <div class="featureDescBox2">
+            <h3 class="features">Watch everywhere</h3>
+            <p class="featuresDesc">Stream unlimited movies and TV <br> shows on your phone, tablet, laptop,<br> and TV.
+            </p>
+        </div>
+    </div>
+
+    <div class="descBox noBorderTop">
+        <div class="graphicBox3">
+
+        </div>
+
+        <div class="featureDescBox2">
+            <h3 class="features">Create profiles for kids</h3>
+            <p class="featuresDesc">Send kids on adventures with their favorite characters in a space made just for
+                them—free with your membership.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq noBorderTop" style="height: auto;">
+        <h3 class="features" style="margin-top: 50px; text-align: center;">Frequently Asked Questions</h3><br>
+
+        <div class="questionBox" onclick="toggleAnswer(this)">
+            <p class="questions">What is Netflix?</p>
+            <p class="plus">+</p>
+        </div>
+
+        <div class="answerQuesBox">
+            <p class="answerQues">Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+                movies, anime,
+                documentaries, and more on thousands of internet-connected devices. <br><br>
+                You can watch as much as you want, whenever you want without a single commercial – all for one low
+                monthly price. There's always something new to discover and new TV shows and movies are added every
+                week!
+            </p>
+        </div>
+
+        <div class="questionBox" onclick="toggleAnswer(this)">
+            <p class="questions">How much does Netflix cost?</p>
+            <p class="plus">+</p>
+        </div>
+
+        <div class="answerQuesBox">
+            <p class="answerQues">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all
+                for one fixed monthly fee. Plans range from USD 2.99 to USD 9.99 a month. No extra costs, no contracts.
+            </p>
+        </div>
+
+        <div class="questionBox" onclick="toggleAnswer(this)">
+            <p class="questions">Where can I watch Netflix?</p>
+            <p class="plus">+</p>
+        </div>
+
+        <div class="answerQuesBox">
+            <p class="answerQues">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the
+                web at netflix.com from your personal computer or on any internet-connected device that offers the
+                Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                <br><br>
+                You can also download your favorite shows with the iOS or Android app. Use downloads to watch while
+                you're on the go and without an internet connection. Take Netflix with you anywhere.
+            </p>
+        </div>
+
+        <div class="questionBox" onclick="toggleAnswer(this)">
+            <p class="questions">How do I cancel?</p>
+            <p class="plus">+</p>
+        </div>
+
+        <div class="answerQuesBox">
+            <p class="answerQues">Netflix is flexible. There are no pesky contracts and no commitments. You can easily
+                cancel your account online in two clicks. There are no cancellation fees – start or stop your account
+                anytime.
+            </p>
+        </div>
+
+        <div class="questionBox" onclick="toggleAnswer(this)">
+            <p class="questions">What can I watch on Netflix?</p>
+            <p class="plus">+</p>
+        </div>
+
+        <div class="answerQuesBox">
+            <p class="answerQues">Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+            </p>
+        </div>
+
+        <div class="questionBox" onclick="toggleAnswer(this)">
+            <p class="questions">Is Netflix good for kids?</p>
+            <p class="plus">+</p>
+        </div>
+
+        <div class="answerQuesBox">
+            <p class="answerQues">The Netflix Kids experience is included in your membership to give parents control
+                while kids enjoy family-friendly TV shows and movies in their own space.
+                <br><br>
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                content kids can watch and block specific titles you don’t want kids to see.
+            </p>
+        </div>
+
+        <h5 class="secTextDesc" style="font-size: 20px; margin-top: 25px;">Ready to watch? Enter your email to create or
+            restart your
+            membership.
+        </h5>
+
+        <div class="membershipBox" style="width: 50%;">
+            <div class="emailBox">
+                <input type="email" name="email" id="emailAddress" class="emailField" placeholder="Email Address">
+            </div>
+
+            <div class="getStartedBox">
+                <button class="getStartedBtn">Get Started <code style="font-size: 30px; padding-left: 15px;">></code>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="parentFooterDiv">
+            <div class="childFooterDiv">
+                <li class="footerContent"><a href="">Questions? Contact us</a></li>
+                <li class="footerContent"><a href="">FAQ</a></li>
+                <li class="footerContent"><a href="">Investor Relations</a></li>
+                <li class="footerContent"><a href="">Privacy</a></li>
+                <li class="footerContent"><a href="">Speed Test</a></li>
+                <select name="language" id="language">
+                    <option value="English">English</option>
+                </select>
+                <li class="footerContent">Netfilx Nepal</li>
+
+            </div>
+            <div class="childFooterDiv paddingMore">
+                <li class="footerContent"><a href="">Help Center</a></li>
+                <li class="footerContent"><a href="">Jobs</a></li>
+                <li class="footerContent"><a href="">Cookies Preference</a></li>
+                <li class="footerContent"><a href="">Legal Notices</a></li>
+            </div>
+            <div class="childFooterDiv paddingMore">
+                <li class="footerContent"><a href="">Account</a></li>
+                <li class="footerContent"><a href="">Ways to Watch</a></li>
+                <li class="footerContent"><a href="">Corporate Information</a></li>
+                <li class="footerContent"><a href="">Only on Netflix</a></li>
+            </div>
+            <div class="childFooterDiv paddingMore">
+                <li class="footerContent"><a href="">Media Center</a></li>
+                <li class="footerContent"><a href="">Terms of Use</a></li>
+                <li class="footerContent"><a href="">Contact Us</a></li>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
